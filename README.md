@@ -201,7 +201,8 @@ Compile/run
 
     scene.txt is the input file. It defines some environment variables such
     as lights and camera setups. It also specifies the models that are
-    going to be rendered in the scene.
+    going to be rendered in the scene (SMF triangle mesh models must be
+    placed under /models folder).
 
     run.sh contains the default rules of compiling and running the programs.  
     Note: change the access permissions of run.sh before using it:  
